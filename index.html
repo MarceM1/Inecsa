@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"
+    />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- scrollreveal -->
+    <script src="scrollreveal.js"></script>
+    <title>Inecsa</title>
+  </head>
+  <body>
+    <header class="vh-100">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./ASSETS/img/LogoInecsaFinal.png"
+              alt="Bootstrap"
+              width="105"
+              height="83"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav nav-underline">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#About US"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item link-color">
+                <a class="nav-link" href="#Clientes">Clientes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#Servicios"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#alquiler"
+                      >Alquiler y venta de equipo liviano</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#diseno"
+                      >Diseño Arquitectonico y desarrollo tecnico</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#construccion"
+                      >Construccion</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav gap-4">
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacto">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  class="btn btn-outline-secondary rounded-pill"
+                  id="len-buttom"
+                >
+                  English
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home" id="Home">
+        <article class="home__titles toleft">
+          <h6 class="pb-1">Inversiones, equipos y construccion.</h6>
+          <h6 class="display-2">
+            Ofrecemos <strong>calidad</strong>, <strong>responsabilidad</strong> e <strong>inovacion</strong>.
+          </h6>
+        </article>
+        <article class="home__content toleft">
+          <div class="home__content-texts">
+            <p class="fs-5 toleft">Lorem, ipsum dolor.</p>
+            <p class="fs-5 toleft">Lorem ipsum dolor sit.</p>
+          </div>
+          <ul class="home__content-social toleft">
+            <li class="home__content-icons">
+              <a href="" class="home__content-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="" class="home__content-icon">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="" class="home__content-icon">
+                <i class="bi bi-envelope-paper"></i>
+              </a>
+            </li>
+            <li class="home__content-contact toleft">
+              <button class="btn btn-outline-secondary rounded-pill w-100">
+                <a href="#Contacto">Contactanos</a>
+              </button>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </header>
+    <main>
+      <!-- about us -->
+      <section class="container my-5" id="About US">
+        <section class="row m-0 p-0">
+          <article class="col-2">
+          </article>
+          <article class="col-10 toleft">
+            <h2 class="display-4 border_orange">Sobre Nosotros</h2>
+            <p class="fs-5 pretty toleft">
+            En <strong>Incesa</strong>, nos enorgullecemos de nuestra <strong>dedicación a la excelencia, la innovación y la satisfacción del cliente</strong>. Nuestro compromiso con la calidad y la responsabilidad nos impulsa a superar las expectativas en cada proyecto que emprendemos. 
+            </p>
+            <p class="fs-5 pretty mt-1 toleft">Con una <strong>visión centrada en el crecimiento sostenible y el desarrollo profesional</strong>, estamos listos para ser <strong>tu socio confiable en la realización de tus proyectos de construcción</strong>. Descubre cómo nuestra pasión por la construcción y el servicio excepcional pueden <strong>hacer realidad tus ideas</strong>.</p>
+          </article>
+        </section>
+        <div class="row m-0 p-0 mt-5 pt-5">
+          <section class="col-12 col-md-4 toright">
+            <h3 class="text-end display-5 border_orange">Nuestra Visión</h3>
+            <p class="fs-5 text-end balance toright">En <strong>Incesa</strong>, nos esforzamos por ser <strong>líderes en la industria de la construcción</strong>, ofreciendo <strong>soluciones innovadoras y sostenibles</strong> que superen las expectativas de nuestros clientes. Buscamos ser reconocidos por <strong>nuestra excelencia, integridad y compromiso con el crecimiento sostenible</strong>.</p>
+          </section>
+          <div class="col-1"></div>
+          <section class="col-12 col-md-7 toup">
+            <h3 class="display-5 border_orange">Nuestros Valores</h3>
+            <article class="d-flex flex-column gap-4 toup">
+              <article class="d-flex flex-column gap-2">
+                <div class="d-flex gap-2">
+                  <i class="bi bi-house-gear display-6 "></i>
+                  
+                  <h5 class="display-6">Calidad</h5>
+                </div>
+                <div>
+                  <p class="fs-5 balance toup">Nos comprometemos a ofrecer servicios y productos de la más alta calidad, cumpliendo con los estándares más exigentes en cada proyecto que emprendemos.</p>
+                </div>
+              </article>
+              <article class="d-flex flex-column gap-2">
+                <div class="d-flex ga-2">
+                  <i class="bi bi-check-all display-6"></i>
+                  <h5 class="display-6">Responsabilidad</h5>
+                </div>
+                <div>
+                  <p class="fs-5 balance toup">Actuamos con responsabilidad en cada etapa del proceso, desde el diseño hasta la entrega final, asegurándonos de cumplir con los plazos acordados y los presupuestos establecidos.</p>
+                </div>
+              </article>
+              <article class="d-flex flex-column gap-2">
+                <div class="d-flex gap-2">
+                  <i class="bi bi-lightbulb display-6"></i>
+                  <h5 class="display-6">Innovación</h5>
+                </div>
+                <div class="fs-5 balance toup">
+                  <p>Buscamos constantemente nuevas formas de mejorar y optimizar nuestros procesos, adoptando tecnologías y prácticas innovadoras para ofrecer soluciones vanguardistas a nuestros clientes.</p>
+                </div>
+              </article>
+            </article>
+          </section>
+        </div>
+        <section class="mt-5 py-5">
+          <div class="row m-0 p-0 mt-5">
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-6 reveal">
+              <h5 class="text-center border_orange display-5">Nuestra Misión</h5>
+              <p class="balance fs-5 text-center reveal">En Incesa, queremos brindarte un equipo completo para que puedas realizar tu proyecto bajo estándares altos de calidad, dividido en 3 conceptos</p>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+          <div class="row m-0 p-0 py-4">
+            
+            <div class="col-12 reveal">
+              <ul class="d-flex align-items-center justify-content-between reveal">
+                <li class="flex gap-2">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">
+                    Diseño Arquitectónico y Desarrollo Técnico
+                  </p>
+                </li>
+                <li class="flex gap-2">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">
+                    Construcción
+                  </p>
+                </li>
+                <li class="flex gap-2">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">
+                    Alquiler y Venta de Equipo Liviano de Construcción
+                  </p>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </section>
+      </section>
+      <!-- sevices -->
+      <section id="Servicios">
+        <!-- carrousel -->
+        <section
+          class="servicios__home d-flex align-items-center justify-content-center"
+        >
+        
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide carousel-fade toright"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./ASSETS/img/albanileria-trabajador-construccion-construyendo-pared-ladrillos.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-6 text-black">
+                    Alquiler y Venta de equipo Liviano de Construcción
+                  </h5>
+                  <p class="text-black fw-bold">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tenetur, maiores.
+                  </p>
+                  <button class="btn btn-outline-dark rounded-pill mx-5">
+                    <a href="#alquiler" class="fw-bold">Ver Equipos</a>
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./ASSETS/img/instalacion-armadura-obrero-construccion.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-6 text-black">
+                    Diseño Arquitectónico y Desarrollo Técnico
+                  </h5>
+                  <p class="text-black fw-bold">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Porro at neque dignissimos.
+                  </p>
+                  <button class="btn btn-outline-dark rounded-pill mx-5">
+                    <a href="#diseno" class="fw-bold">Ver más</a>
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./ASSETS/img/albanil-que-instala-albanileria-ladrillos-pared-exterior-espatula-espatula.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-6 text-black">Construcción</h5>
+                  <p class="text-black fw-bold">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                  <button
+                    class="btn btn-outline-dark rounded-pill mx-5 fw-bold"
+                  >
+                    <a href="#Contacto">Contáctanos</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <!-- Alquiler de equipos -->
+        <section class="container mt-5 pt-5" id="alquiler">
+          <div class="row toleft">
+            <div class="col-lg-3"></div>
+            <div class="col-12 col-lg-9">
+              <h2 class="display-4 border_orange pb-2">Alquiler y Venta de equipo liviano</h2>
+              <p class="fs-5 toleft">Contamos con el mejor equipo liviano altamente especializado y capacitado para abordar una amplia variedad de proyectos de obra civil y construcción en general. </p>
+              <p class="fs-5 toleft">Nuestro experimentado equipo cuenta con las habilidades y la experiencia necesarias para llevar a cabo cada proyecto con eficiencia, precisión y efectividad, asegurando resultados de alta calidad y satisfacción para nuestros clientes.</p>
+            </div>
+          </div>
+
+          <div class="mt-5 pt-5">
+            <div class="row mb-5 pb-5 d-flex align-items-center">
+              <div class="col-12 col-lg-4 toright">
+                <h3 class="display-5 border_orange pb-2 text-start text-md-end">Concreto</h3>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Mezcladora de concreto</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Vibradora de concreto</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Allanadora de concreto</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Cortadora de concreto</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Cortadora manual de
+                    concreto</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 d-flex toleft">
+                <img src="ASSETS/img/equipos/allanadora de concreto.png" class="img-fluid w-50" alt="">
+                <img src="ASSETS/img/equipos/Mezcladora de concreto.png" class="img-fluid w-50 toleft" alt="">
+              </div>
+            </div>
+            <div class="row mb-5 pb-5 d-flex align-items-center">
+              <div class="col-12 col-lg-4 order-1 order-lg-2 toleft">
+                <h3 class="display-5 border_orange pb-2">Equipos de Andamiaje</h3>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p  class="fs-5">Andamios metálicos.</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Escalera para andamios.</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Niveladores para 
+                    andamios.</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Ruedas para andamios.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 d-flex order-2 order-lg-1 toright">
+                <img src="ASSETS/img/equipos/andamios.png" class="img-fluid w-50 toright" alt="">
+                <img src="ASSETS/img/equipos/ruedas para andamios.png" class="img-fluid w-50" alt="">
+              </div>
+            </div>
+            <div class="row mb-5 pb-5 d-flex align-items-center">
+              <div class="col-12 col-lg-4 toright">
+                <h3 class="display-5 border_orange pb-2 text-md-end toright">Demolición 
+                  y Perforación</h3>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Compresor de aire
+                    comprimido.
+                  </p>  
+                </div>    
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Muleta neumática
+                    para demolición.</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p  class="fs-5">Muleta eléctrica
+                    para demolición.</p>
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Taladro rota-martillo.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 d-flex toleft">
+                <img src="ASSETS/img/equipos/taladro rotomartillo.png" class="img-fluid w-50" alt="">
+                <img src="ASSETS/img/equipos/muleta electrica.png" class="img-fluid w-50 toleft" alt="">
+              </div>
+            </div>           
+            <div class="row mb-5 pb-5 d-flex align-items-center">
+              <div class="col-12 col-lg-4 order-1 order-lg-2 toleft">
+                <h3 class="display-5 border_orange pb-2">Compactación</h3>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Compactadora de doble
+                    rodo.
+                  </p>  
+                </div> 
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Compactadora de rodo
+                    sencillo.
+                  </p>  
+                </div> 
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Compactadora de pié o 
+                    bailarina.
+                  </p>  
+                </div> 
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Compactadora de plato.
+                  </p>  
+                </div> 
+              </div>
+              <div class="col-12 col-lg-8 order-2 order-lg-1 d-flex toright">
+                <img src="ASSETS/img/equipos/compactadora de rodo doble.png" class="img-fluid w-50 toright" alt="">
+                <img src="ASSETS/img/equipos/compactadora de pie.png" class="img-fluid w-50" alt="">
+              </div>
+            </div>
+            <div class="row mb-5 pb-5 d-flex align-items-center">
+              <div class="col-12 col-lg-4 toright">
+                <h3 class="display-5 border_orange pb-2 text-md-end">Soldadura</h3>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5 toright"></i>
+                  <p class="fs-5">Soldadora eléctrica
+                    de 250 y 300 A.
+                  </p>  
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Motosoldadora de
+                    gasolina.
+                  </p>  
+                </div>
+                <div class="d-flex gap-1 align-items-center justify-content-md-end toright">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Equipo oxicorte.
+                  </p>  
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 d-flex toleft">
+                <img src="ASSETS/img/equipos/equipo de oxicorte.png" class="img-fluid w-50" alt="">
+                <img src="ASSETS/img/equipos/soldadora gas.png" class="img-fluid w-50 toleft" alt="">
+              </div>
+            </div>
+            <div class="row mb-5 pb-5 d-flex align-items-center">
+              <div class="col-12 col-lg-4 order-1 order-lg-2 toleft">
+                <h3 class="display-5 border_orange pb-2">Equipos varios</h3>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Bombas achicadoras
+                    3”x3” con manguera
+                    de succión.
+                  </p>  
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Puntales para fijación
+                    de estructuras.
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Hidrolavadora de 3000
+                    y 4000 psi.
+                  </p>  
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Taladro rota-martillo 
+                    para rocas de distintos
+                    tamaños.
+                  </p>  
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Escalera tipo A 
+                    de aluminio y fibra de 
+                    vidrio desde 6 hasta 
+                    12 pies.
+                  </p>  
+                </div>
+                <div class="d-flex gap-1 align-items-center toleft">
+                  <i class="bi bi-check fs-5"></i>
+                  <p class="fs-5">Escalera de extensión
+                    de aluminio y fibra de
+                    vidrio desde 20 hasta
+                    40 pies.
+                  </p>  
+                </div>
+              </div>
+              <div class="col-12 col-lg-8 order-2 order-lg-1 d-flex toright">
+                <img src="ASSETS/img/equipos/bomba achicadora.png" class="img-fluid w-50 toright" alt="">
+                <img src="ASSETS/img/equipos/puntales.png" class="img-fluid w-50" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="servicios__diseno reveal" id="diseno">
+          <article class="servicios__diseno-asesoria reveal">
+            <h2>Asesoría</h2>
+            <p>Asesoramiento técnico en cualquier</p>
+            <p>proyecto de construcción civil</p>
+          </article>
+          <article class="servicios__diseno-diseno reveal">
+            <h2>Diseño</h2>
+            <h4>Diseño arquitectónico de proyectos de todo tipo</h4>
+            <div class="servicios__diseno-items reveal">
+              <ul>
+                <li><p>Diseño Estructural</p></li>
+                <li><p>Diseño Eléctrico</p></li>
+                <li><p>Diseño Arquitectónico</p></li>
+                <li><p>Estudios de suelo</p></li>
+                <li><p>Presentación arquitectónica en 2D y 3D</p></li>
+              </ul>
+              <ul class="reveal">
+                <li>Rederización de modelos 3D</li>
+                <li>Permisos de construcción</li>
+                <li>Estudios de impacto ambiental</li>
+                <li>Elaboración de presupuestos</li>
+                <li>Diseño Bioclimático</li>
+              </ul>
+            </div>
+          </article>
+          <article class="servicios__diseno-titles reveal">
+            <h1 class="display-5">DISEÑO</h1>
+            <h1 class="display-1 fw-bold reveal">ARQUITECTÓNICO</h1>
+            <h1 class="display-4 fw-light reveal">& DESARROLLO TÉCNICO</h1>
+          </article>
+        </section>
+
+        <section class="servicios__construccion" id="construccion">
+          <h1>Construccion</h1>
+        </section>
+      </section>
+      <!-- projects -->
+      <section class="container vh-100" id="Proyectos">
+        <h1>Proyectos</h1>
+      </section>
+      <section class="container vh-100" id="Clientes">
+        <h1>Clientes</h1>
+      </section>
+      <!-- Contacto -->
+      <section class="vh-100 reveal" id="Contacto">
+        <article class="container">
+          <div class="row m-0 p-0 gap-3 toleft">
+            <h2 class="display-4 col-12  m-0 p-0" id="footer_title">Contáctenos</h2>
+            <h4 class="col-12 mb-1 p-0 toleft">
+              Dejenos sus comentarios y nos contactaremos a la brevedad.
+            </h4>
+          </div>
+
+          <form class="row m-0 p-0" action="">
+            <div class="row m-0 p-0 gap-3">
+              <div class="col m-0 p-0 toright">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required />
+              </div>
+              <div class="col m-0 p-0 toleft">
+                <label for="lastname" class="form-label">Apellido:</label>
+                <input type="text" class="form-control" placeholder="Ingresa tu apellido" id="lastname" />
+              </div>
+            </div>
+            <div class="row m-0 p-0 gap-3">
+              <div class="col m-0 p-0 toright">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required />
+              </div>
+              <div class="col m-0 p-0 toleft">
+                <label for="number" class="form-label">Telefono:</label>
+                <input type="number" class="form-control" id="number" placeholder="Ingresa tu teléfono" required />
+              </div>
+            </div>
+            <div class="row m-0 p-0 gap-3">
+              <div class="col m-0 p-0 toright">
+                <labe for="enterprise" class="form-label">Empresa o institución:</label>
+                <input type="text" class="form-control" id="enterprise" placeholder="Ingresa la empresa o institución" />
+              </div>
+              <div class="col m-0 p-0 toleft">
+                <label for="location" class="form-label m-0 p-0">Ubicación:</label>
+                <input type="text" class="form-control" id="location" placeholder="Ingresa tu ubicación"/>
+              </div>
+            </div>
+            <div class="row m-0 p-0">
+              <div class="col-12 m-0 p-0 toup">
+                <label class="form-label">Comentarios:</label>
+                <textarea
+                  class="form-control toup"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="6"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-12 m-0 p-0 toup">
+              <button
+                class="btn w-100 btn-outline-secondary rounded-pill mt-3 mb-5 fs-5 toup"
+              >
+                Enviar
+              </button>
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer
+      class="container-fluid d-flex flex-column align-items-center justify-content-start"
+    >
+      <section
+        class="footer__content container-fluid d-flex align-items-center justify-content-around row"
+      >
+        <article
+          class="col-12 col-md-6 col-lg-5 p-5 footer__about text-center mb-5 toright"
+        >
+          <h2 class="display-6">Inecsa</h2>
+          <p class="text-start balance toright">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non reiciendis sit velit facere voluptatem magnam aliquid sapiente unde eum. Aut aperiam quia officia cupiditate quae exercitationem, quis odio architecto accusantium voluptas itaque! Suscipit cum cumque, expedita natus molestias debitis similique quidem ullam saepe architecto, veritatis quaerat doloremque aspernatur quod aperiam!</p>
+        </article>
+        <article class="col-12 col-md-6 col-lg-2 text-center mb-5 footer__nav toup">
+          <ul class="nav-underline">
+            <li class="nav-item">
+              <a href="#Home" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About US" class="nav-link">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Proyectos" class="nav-link">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Clientes" class="nav-link">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Servicios" class="nav-link">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contacto" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </article>
+        <article
+          class="col-12 col-md-12 col-lg-5 d-flex align-items-center justify-content-center flex-column col-sm-mb-5 footer__location toleft"
+        >
+          <h2 class="display-6">Contactenos</h2>
+          <div class="row text-center mb-1 toleft">
+            <a class="col-4 px-5" href="mailto:inecsa.sps@gmail.com">
+              <i class="bi bi-envelope"></i>
+            </a>
+            <a class="col-4 px-5" href="#">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a class="col-4 px-5" href="#">
+              <i class="bi bi-geo-alt"></i>
+            </a>
+          </div>
+          <iframe
+            class="mt-1 toleft"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7689.507351671324!2d-88.02647356149349!3d15.497676279197742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1686073253910!5m2!1ses!2sar"
+            width="400"
+            height="170"
+            style="border-top: 3px solid #0567a5; padding-top: 1rem"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
+        <article class="row footer__copy text-center toright">
+          <small
+            >&copy Enero 2024 | <strong><a href="https://marcelomelogno.netlify.app/" target="_blank" rel="noopener noreferrer">Marcelo Melogno</a></strong> Diseñado y Desarrollo Web |
+            Buenos Aires, Argentina.</small
+          >
+        </article>
+      </section>
+    </footer>
+
+    <!-- Bootstrap Scrips -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Scripts JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
