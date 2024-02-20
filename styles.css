@@ -350,7 +350,7 @@ small strong a:hover {
 
 .bg_img1 {
   background-image: url(ASSETS/img/proyectos/Pintura\ Bac.jpg);
-  
+
   height: 50vh;
   background-position: center;
   background-size: cover;
@@ -358,28 +358,25 @@ small strong a:hover {
 }
 .bg_img2 {
   background-image: url(ASSETS/img/proyectos/Pintura\ Bac\ 2.jpg);
-  
+
   height: 50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
 }
 .bg_img3 {
   background-image: url(ASSETS/img/proyectos/Pintura\ Bac\ 3.jpg);
-  
+
   height: 50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
 }
 .bg_img4 {
   background-image: url(ASSETS/img/proyectos/Pintura\ Bac\ 4.jpg);
-  
+
   height: 50vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
 }
